@@ -1,0 +1,1 @@
+define(function(){return{checkName:function(e){return/^\d{11}$/.test(e)},checkPsw:function(e){return/(?![0-9]+$)[a-z0-9]{6,8}/.test(e)},checkverify:function(e,t){return e.toLowerCase()==t.toLowerCase()}}});
